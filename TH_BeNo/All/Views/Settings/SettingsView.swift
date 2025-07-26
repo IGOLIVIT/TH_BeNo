@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import StoreKit
 
 struct SettingsView: View {
     
@@ -29,7 +30,7 @@ struct SettingsView: View {
                     
                     Button(action: {
                         
-                        
+                        SKStoreReviewController.requestReview()
                         
                     }, label: {
                         
@@ -43,7 +44,9 @@ struct SettingsView: View {
                     
                     Button(action: {
                         
+                        guard let url = URL(string: "https://www.termsfeed.com/live/96b869b6-b8db-4b67-ae5e-b2a2c3f16dfa") else { return }
                         
+                        UIApplication.shared.open(url)
                         
                     }, label: {
                         

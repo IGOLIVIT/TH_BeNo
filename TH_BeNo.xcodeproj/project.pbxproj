@@ -21,9 +21,7 @@
 		788828322E3273F4008A89EC /* CakesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788828312E3273F4008A89EC /* CakesView.swift */; };
 		788828342E3273F9008A89EC /* CakesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788828332E3273F9008A89EC /* CakesViewModel.swift */; };
 		788828362E327401008A89EC /* SalesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788828352E327401008A89EC /* SalesView.swift */; };
-		788828382E327407008A89EC /* SalesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788828372E327407008A89EC /* SalesViewModel.swift */; };
 		7888283A2E32740F008A89EC /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788828392E32740F008A89EC /* SettingsView.swift */; };
-		7888283C2E327416008A89EC /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7888283B2E327416008A89EC /* SettingsViewModel.swift */; };
 		7888283E2E328556008A89EC /* NewCake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7888283D2E328556008A89EC /* NewCake.swift */; };
 		788828402E3285D0008A89EC /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7888283F2E3285D0008A89EC /* CoreDataStack.swift */; };
 		788828422E3285DA008A89EC /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788828412E3285DA008A89EC /* Array.swift */; };
@@ -48,9 +46,7 @@
 		788828312E3273F4008A89EC /* CakesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakesView.swift; sourceTree = "<group>"; };
 		788828332E3273F9008A89EC /* CakesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakesViewModel.swift; sourceTree = "<group>"; };
 		788828352E327401008A89EC /* SalesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesView.swift; sourceTree = "<group>"; };
-		788828372E327407008A89EC /* SalesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesViewModel.swift; sourceTree = "<group>"; };
 		788828392E32740F008A89EC /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		7888283B2E327416008A89EC /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
 		7888283D2E328556008A89EC /* NewCake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCake.swift; sourceTree = "<group>"; };
 		7888283F2E3285D0008A89EC /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		788828412E3285DA008A89EC /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
@@ -196,7 +192,6 @@
 			isa = PBXGroup;
 			children = (
 				788828352E327401008A89EC /* SalesView.swift */,
-				788828372E327407008A89EC /* SalesViewModel.swift */,
 				788828452E32B33D008A89EC /* NewSale.swift */,
 			);
 			path = Sales;
@@ -206,7 +201,6 @@
 			isa = PBXGroup;
 			children = (
 				788828392E32740F008A89EC /* SettingsView.swift */,
-				7888283B2E327416008A89EC /* SettingsViewModel.swift */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -286,7 +280,6 @@
 				788828262E3273C2008A89EC /* LoadingView.swift in Sources */,
 				7888282C2E3273DA008A89EC /* OB3.swift in Sources */,
 				788828422E3285DA008A89EC /* Array.swift in Sources */,
-				788828382E327407008A89EC /* SalesViewModel.swift in Sources */,
 				7888282E2E3273E1008A89EC /* TabBar.swift in Sources */,
 				788828242E3273A9008A89EC /* CoreModel.xcdatamodeld in Sources */,
 				7888282A2E3273D5008A89EC /* OB2.swift in Sources */,
@@ -300,7 +293,6 @@
 				788828282E3273D0008A89EC /* OB1.swift in Sources */,
 				788828322E3273F4008A89EC /* CakesView.swift in Sources */,
 				7888283A2E32740F008A89EC /* SettingsView.swift in Sources */,
-				7888283C2E327416008A89EC /* SettingsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,12 +424,14 @@
 				DEVELOPMENT_ASSET_PATHS = "\"TH_BeNo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Bento Cakes Collection";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -469,12 +463,14 @@
 				DEVELOPMENT_ASSET_PATHS = "\"TH_BeNo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Bento Cakes Collection";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
